@@ -7,4 +7,4 @@
 	deflate.push(array, true);
 	if (deflate.err) throw deflate.err;
 	console.log(btoa(String.fromCharCode.apply(null, deflate.result)));
-})(); // what
+})(); // doesn't egen work lol
